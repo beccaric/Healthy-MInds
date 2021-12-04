@@ -1,7 +1,7 @@
 body {
   display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
   flex-direction: column;
-  padding-top: 56px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+  padding-top: 40px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
   min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
 }
 
