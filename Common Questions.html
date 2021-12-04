@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- this scales the content to display nicely on mobiles/tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HealthyMinds-Common Questions</title>
+
+    <!-- Bootstrap and FontAwesome cdn links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- our custom styles -->
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="./index.html">HealthyMinds</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./Common Questions.html">Common Questions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ==== END NAV BAR ===== -->
+
+    <main>
+
+      <!-- ==== linking button back to home page demo ==== -->
+      <div class="container">
+        <h1>Common Questions</h1>
+        <h2>
+        <text-align:center>Curiosity is an important part of taking care of ourselves and those we care about. Asking questions and staying informed helps protect and improve our emotional health.</text-align:center> 
+        </h2>
+        <h3>
+          What exactly is “mental health”?</h3>
+          <h5>Good question, because “mental health” can mean different things to different people. Mental health is a continuum that stretches from where we’re feeling good to the other end of the continuum where we’re struggling because of a challenge or a condition like depression. Where we are on that continuum is influenced by various factors. Some we can control (how we take care of ourselves or our support networks) and some we can’t (our genetics or how we were raised).
+
+            When our mental health is strong it can help us thrive. When we’re struggling, we may need to seek out self-care and coping practices,and/or the support of professionals.</h5>
+<div></div>
+ <h3>What’s the difference between day-to-day emotional struggles and mental health conditions?</h3>
+ <h5>
+  We can feel depressed or anxious without experiencing a mental health condition such as  depression or an anxiety disorder. Mental health conditions (sometimes referred to as mental illnesses) are defined by the length and intensity of our negative feelings and behaviors. The distinction between feeling anxious and having an anxiety disorder depends on how deeply those feelings affect our lives and how long that impact lasts. The important thing to remember is that mental health conditions are treatable and manageable. With the right support, we can move from struggling back across the continuum to thriving.
+  </h5>
+  <h3>What if I’m overwhelmed and don’t know where to start?</h3>
+  <h5>Sometimes feelings get so intense, it’s hard to pinpoint exactly what we’re feeling, what’s causing us to feel that way and how to even begin to deal with it. We get it, and we’ve got you. Head over to our Contact Page to get started.</h5>
+        <a class="btn btn-primary" href="./index.html" role="button">click to go back to home page</a>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- ==== social icons ==== -->
+      <a href="https://twitter.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-twitter"></i></span>
+      </a>
+      <a href="https://facebook.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-facebook-f"></i></span>
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <span class='social-icon'><i class="fab fa-instagram"></i></span>
+      </a>
+    </footer>
+
+    <!-- ==== button that scrolls window to the top ==== -->
+    <button class="btn btn-primary" onclick="topFunction()" id="go-top-button" title="Go to top">Top</button>
+
+    <!-- Bootstrap needs the these 3 javascript links for things like carousel and modals to work properly
+         we also need jQuery for the code for the "scroll to the top" code in scripts.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- our custom javascript -->
+    <script src="./js/scripts.js"></script>
+  </body>
+
+</html>
