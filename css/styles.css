@@ -22,11 +22,11 @@ main {
 }
 
 #second-navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(107, 166, 241);
   display: flex;  /* unlocks "flex" property for its children (<a> tags) */
 }
 #second-navbar a {
-  height: 50px;
+  height: 40px;
   flex: 1;  /* all of these <a> elements will "grow" an equal amount (so they all have an equal width) */
   display: flex;  /* allows use of "justify-content" and "align-items" properties */
   justify-content: center;  /* horizontally centers the contents (the text within) */
