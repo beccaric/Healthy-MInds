@@ -61,12 +61,12 @@ body {
   background: #ffffff;
 }
 
-h2 {
+h3 {
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   margin-bottom: 40px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 input {
@@ -101,12 +101,9 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover,
 form input[type="submit"]:focus {
-  box-shadow: inset 0 0 50px rgba(255,255,255, 0.3),
-                    0 0 10px rgba(255,255,255, 0.1);
   color: white;
   margin-left: 10px;
 }
-
 /* <!-- END OF SUBMIT FORM --> */
 
 footer {
