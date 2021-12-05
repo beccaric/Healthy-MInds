@@ -39,6 +39,7 @@ main {
 .container {
   padding-top: 60px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 hr {
