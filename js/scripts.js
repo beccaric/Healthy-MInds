@@ -14,3 +14,9 @@ function scrollFunction() {
 function topFunction() {
   $(window).scrollTop(0);
 }
+
+var form = document.querySelector('form');
+
+form.onsubmit = function(e) {
+  e.preventDefault();
+}
