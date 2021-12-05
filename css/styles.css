@@ -58,6 +58,12 @@ hr {
 
 /* <!-- START OF SUBMIT FORM --> */
 
+/* Crete Round */
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
+
+/* Open Sans */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 /* styles */
 body {
   background: #ffffff;
