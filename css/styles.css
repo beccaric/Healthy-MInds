@@ -96,8 +96,6 @@ form input[type="submit"] {
   padding: 10px 15px;
   color: #c0d6db;
   background: #549cd8;
-  background: #508f9f;
-  background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
   transition: all .3s ease-in-out;
 }
 
