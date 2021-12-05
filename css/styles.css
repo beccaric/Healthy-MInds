@@ -70,7 +70,7 @@ h2 {
 }
 
 input {
-  font: 19px "Open Sans", Helvetica, Arial, Sans-serif;
+  font: 15px "Open Sans", Helvetica, Arial, Sans-serif;
   border-radius: 3px;
 }
 
@@ -95,9 +95,7 @@ form input[type="email"] {
 form input[type="submit"] {
   padding: 10px 15px;
   color: #c0d6db;
-  background: #427b89;
-  text-shadow: 0 2px 2px #333;
-  box-shadow: inset 0 0 0 transparent;
+  background: #549cd8;
   background: #508f9f;
   background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
   transition: all .3s ease-in-out;
