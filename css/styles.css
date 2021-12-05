@@ -61,13 +61,11 @@ hr {
 /* styles */
 body {
   background: #ffffff;
-  font-family: 'Karla', sans-serif;
-  
+
 }
 
 h3 {
   font-weight: normal;
-  font-family: 'Karla', sans-serif;
   color: #000000;
   margin-bottom: 40px;
   text-transform: none;
