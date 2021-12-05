@@ -168,8 +168,7 @@ textarea {
 input[type=submit]{
   margin: 10px auto;
   width: 120px;
-  background: rgb(126, 123, 124);
-  color: white;
+  background: rgb(139, 139, 139);
   cursor: pointer;
 }
 input[type=submit]:hover{
