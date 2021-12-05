@@ -152,8 +152,8 @@ footer a {
   color: rgb(0, 0, 0);
   background-color: white;
   border-color: #000000;
-  justify-content: right;  /* horizontally centers the contents (the FontAwesome icon) */
-  align-items: right;  /* vertically centers the contents (the FontAwesome icon) */
+  justify-content: center;  /* horizontally centers the contents (the FontAwesome icon) */
+  align-items: center;  /* vertically centers the contents (the FontAwesome icon) */
   border-radius: 0%;  /* makes it round (circle if width and height are the same) */
 }
 
