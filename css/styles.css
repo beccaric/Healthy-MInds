@@ -158,10 +158,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-form {
-  text-align: center;
-}
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
