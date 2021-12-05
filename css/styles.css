@@ -127,6 +127,17 @@ footer a {
   text-decoration: none!important;
 }
 
+.button {
+  background-color: #4587c4; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+
 .social-icon {
   display: inline-flex;  /* allows use of "justify-content" and "align-items" properties */
   width: 50px;
