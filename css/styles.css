@@ -136,7 +136,7 @@ footer a {
 }
 
 .button {
-  background-color: #4587c4; /* Blue */
+  background-color: #4d96db; /* Blue */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -165,6 +165,7 @@ footer a {
 #go-top-button {
   width: 50px;
   height: 50px;
+  background-color: #a39999;
   display: none;  /* Hidden by default */
   position: fixed;  /* Fixed/sticky position */
   bottom: 20px;  /* Place the button 20px from the bottom of the page */
