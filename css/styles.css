@@ -123,10 +123,9 @@ form input[type="submit"]:focus {
 
 /* Style inputs */
 input[type=text], select, textarea {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   border: 1px solid rgb(214, 214, 214);
-  text-align: center;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
