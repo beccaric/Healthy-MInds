@@ -25,23 +25,10 @@ return true;
 }
 
 
-// JS for Contact Us page 
-function validate(){
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
-  var phone = document.getElementById("phone").value;
-  var message = document.getElementById("message").value;
+var form = document.querySelector('form')
+form.onsubmit = function(e) {
+  e.preventDefault();
 
-  var error_message = document.getElementById("error_message");
-  
-  error_message.style.padding = "15px";
-
-  }
-
-  if(email.indexOf("@") == -1 || email.length < 6){
-    text = "Please enter valid email address";
-    error_message.innerHTML = text;
-    return false;
-  }
-  alert("Form Submitted Successfully!");
-  return true;
+alert("Successfully Subscribed!");
+return true;
+}
