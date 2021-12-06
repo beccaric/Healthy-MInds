@@ -1,3 +1,7 @@
+
+
+/* <!-- CONTACT US FORM STARTS HERE--> */
+
 * {
     font-family: sans-'Quicksand', sans-serif;
     margin: 0;
@@ -122,6 +126,16 @@
     .left{
       height: 200px;
     }
+  }
+
+  /* <!-- CONTACT US FORM ENDS HERE--> */
+
+  footer {
+    display: flex;  /* allows use of "justify-content" property */
+    justify-content: center;  /* horizontally centers the contents (the social icons) */
+    background-color: rgb(190, 187, 187);
+    height: 90px;
+    padding: 20px;
   }
 
   footer a {
