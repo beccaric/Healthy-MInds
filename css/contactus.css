@@ -1,5 +1,13 @@
-
-
+body {
+    display: flex;  /* setting "display: flex" allows its children (e.g. "main" below) to use the "flex" property */
+    flex-direction: column;
+    padding-top: 40px;  /* allow enough space for a fixed navbar (56px is the height of the navbar here) */
+    min-height: 100vh;  /* i.e minimum width is 100% of the "viewport height"... i.e the full screen height */
+  }
+  
+  main {
+    flex: 1;  /* makes the <main> grow (we want it to grow so that it pushes <footer> to the bottom of page)*/
+  }
 
 #second-navbar {
     background-color: rgb(107, 166, 241);
