@@ -164,7 +164,7 @@ body {
   }
   
   .btn:hover{
-    background-color: linen;
+    background-color: rgb(149, 199, 223);
   }
   
   @media screen and (max-width:xs880px) {
