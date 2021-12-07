@@ -22,7 +22,7 @@ main {
 }
 
 #second-navbar {
-  background-color: rgb(107, 166, 241);
+  background-color: rgb(0, 0, 0);
   display: flex;  /* unlocks "flex" property for its children (<a> tags) */
 }
 #second-navbar a {
