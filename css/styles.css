@@ -107,7 +107,7 @@ form input[type="email"] {
 
 form input[type="submit"] {
   padding: 10px 15px;
-  color: #c0d6db;
+  color: #ffffff;
   background: #549cd8;
   transition: all .3s ease-in-out;
 }
